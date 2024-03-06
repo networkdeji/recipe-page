@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body{
+    background-color:  hsl(30, 54%, 90%);
+}
+
+.container{
+    display: block;
+    margin:10% 30%;
+    padding: 25px 35px;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    
+    color:hsl(14, 45%, 36%);
+}
+h1{font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;}
+ h2{
+    font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+li {
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    font-size:  16px;
+}
+p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      font-size:  16px;
+}
+.first-sec{
+    
+    padding-top:10px ;
+}
+.second-sec{
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px 30px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+.third-sec{
+    padding: 10px 10px;
+    margin: 20px 0;
+}
+.fourth-sec{
+    padding: 10px 10px;
+    margin: 20px 0;
+}
+.fifth-sec{
+    padding: 10px 10px;
+    margin: 20px 0;
+    line-height: 1.5;
+    display:grid;
+   
+    
+}
+.fifth-sec h4{
+    display: flex;
+    justify-content:space-between;
+    font-family: "Young Serif", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+img{
+   border-radius: 50px;
+   width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    padding: 10px;
+}
+.kgl{
+    display: flex;
+    justify-content:space-between;
+    margin-right: 150px;
+}
+
